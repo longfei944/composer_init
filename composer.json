@@ -1,9 +1,6 @@
 {
   "name": "glf/composer-init", // 包名
-  //"description": "study practice",  // 关于这个包的描述
-  "keywords": [   // 关于这个包的关键字
-    "practice"
-  ],
+  "description": "study practice",// 关于这个包的描述
   "type": "library",  // 这个包的类型
   "require": {
     "php": ">=7.0"  // 依赖,这里的依赖要小心了, 如果有依赖其他项目的,需要写明版本
