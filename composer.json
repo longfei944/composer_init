@@ -1,21 +1,20 @@
 {
-  "name": "glf/composer-init", // 包名
-  "description": "study practice",// 关于这个包的描述
-  "type": "library",  // 这个包的类型
+  "name": "glf/composer-init",
+  "description": "study practice",
+  "type": "library",
   "require": {
-    "php": ">=7.0"  // 依赖,这里的依赖要小心了, 如果有依赖其他项目的,需要写明版本
+    "php": ">=7.0"
   },
-  //"minimum-stability": "dev",  // 版本
-  "license": "MIT",  // 协议, MIT 开源协议
-  "authors": [  // 这个包的作者的用户名称和邮箱
+  "license": "MIT",
+  "authors": [
     {
       "name": "glf",
       "email": "1101696099@qq.com"
     }
   ],
-  "autoload": {  // 自动加载: 注意了, 这里有 psr-4, psr-2 多种规范, 并且,注意目录和命名空间
+  "autoload": {
     "psr-4": {
-      "ComposerInit\\": "src/"
+      "ComposerInit": "src"
     }
   }
 }
