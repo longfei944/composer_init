@@ -1,5 +1,5 @@
 {
-  "name": "glf/composer-init",
+  "name": "glf/ComposerInit",
   "description": "study practice",
   "type": "library",
   "require": {
