@@ -1,20 +1,21 @@
 {
-  "name": "glf/composer-init",
-  "description": "study practice",
-  "type": "library",
-  "require": {
-    "php": ">=7.0"
-  },
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "glf",
-      "email": "1101696099@qq.com"
+    "name": "11016/composer_init",
+    "description": "测试",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GeLongfei",
+            "email": "gelongfei@weichuanbo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+          "ComposerInit\\": "src"
+        }
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "ComposerInit\\": "src"
-    }
-  }
 }
